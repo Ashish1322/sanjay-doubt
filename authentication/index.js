@@ -6,6 +6,7 @@ const cors = require("cors");
 
 //import routers
 
+console.log("new Change");
 const authRouter = require("./routes/auth");
 const todoRouter = require("./routes/todo");
 
